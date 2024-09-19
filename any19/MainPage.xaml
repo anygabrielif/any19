@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="any19.MainPage">
+ <StackLayout Padding="20" Spacing="15" HorizontalOptions="Center" VerticalOptions="Center">
+
+    <Image 
+    Source="logo.jpg"
+    Aspect="AspectFit"
+    HorizontalOptions="Center"
+    VerticalOptions="FillAndExpand"
+    Margin="10"/>
+
+        <Label Text=" Perguntas: " 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+
+      
+        <Button Text="Alternativa A" 
+                BackgroundColor="Pink" 
+                TextColor="White"
+                HeightRequest="50" 
+                WidthRequest="300" />
+
+        <Button Text="Alternativa B" 
+                BackgroundColor="Pink" 
+                TextColor="White"
+                HeightRequest="50" 
+                WidthRequest="300" />
+
+        <Button Text="Alternativa C" 
+                BackgroundColor="Pink" 
+                TextColor="White"
+                HeightRequest="50" 
+                WidthRequest="300" />
+
+        <Button Text="Alternativa D" 
+                BackgroundColor="Pink" 
+                TextColor="White"
+                HeightRequest="50" 
+                WidthRequest="300" />
+
+        <Button Text="Alternativa E" 
+                BackgroundColor="Pink" 
+                TextColor="White"
+                HeightRequest="50" 
+                WidthRequest="300" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button Text="Cartas" 
+                    BackgroundColor="Pink" 
+                    TextColor="White"
+                    WidthRequest="120" />
+
+            <Button Text="Universitários" 
+                    BackgroundColor="Pink" 
+                    TextColor="White"
+                    WidthRequest="120" />
+
+            <Button Text="Retirar um " 
+                    BackgroundColor="Pink" 
+                    TextColor="White"
+                    WidthRequest="120" />
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
+
+   
+
+    
